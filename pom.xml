@@ -150,7 +150,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
-          <mainClass>org.fline.fline.MainKt</mainClass>
+          <mainClass>org.fline.MainKt</mainClass>
         </configuration>
       </plugin>
       <plugin>
