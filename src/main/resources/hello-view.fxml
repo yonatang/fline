@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+  fx:controller="org.fline.fline.controller.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+  </padding>
+
+  <Label fx:id="welcomeText"/>
+  <RadioButton fx:id="pacRadioButton" text="PAC"/>
+  <RadioButton fx:id="urlRadioButton" text="URL"/>
+  <RadioButton fx:id="directRadioButton" text="Direct"/>
+  <TextField fx:id="hostTextField" promptText="Host"/>
+  <TextField fx:id="portNumberField" promptText="Port"/>
+  <TextField fx:id="usernameTextField" promptText="Proxy Username"/>
+  <PasswordField fx:id="passwordField" promptText="Proxy Password"/>
+  <Button text="Close" fx:id="closeButton" onAction="#onHideButtonClick"/>
+  <Button text="Apply" onAction="#onHelloButtonClick"/>
+</VBox>

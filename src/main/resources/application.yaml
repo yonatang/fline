@@ -1,0 +1,15 @@
+
+#spring:
+#  main:
+#
+#    web-application-type: none
+#logging:
+#  level:
+#    org.fline: INFO
+#    "org.fline": DEBUG
+#    "org.fline.proxy.pac.PacProxySelector": TRACE
+
+#    "org.fline": DEBUG
+server:
+  port: 0
+  address: 127.0.0.1
